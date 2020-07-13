@@ -32,7 +32,9 @@ import br.com.pauloceami.cursoappvendas.versaofinal.Util.Util;
 
 public class Principal extends AppCompatActivity {
 
-    private static final String URL_BASE = "http://cursoappvendas.tempsite.ws/";
+//    private static final String URL_BASE = "http://cursoappvendas.tempsite.ws/";
+    private static final String URL_BASE = "https://platinumweb.com.br//";
+
     private static final String URL_REGISTRO = URL_BASE + "json/registrar/registrar_usuario.php";
 
     private static final String CODIGO_USUARIO = "usu_codigo";
