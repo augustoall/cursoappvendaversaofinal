@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txv_clicodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo Cliente" />
+
+
+    <TextView
+        android:id="@+id/txv_cli_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome Cliente" />
+
+    <TextView
+        android:id="@+id/txv_cli_fantasia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome Fantasia" />
+
+
+    <TextView
+        android:id="@+id/txv_cli_bairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bairro" />
+
+</LinearLayout>

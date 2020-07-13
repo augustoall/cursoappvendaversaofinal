@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/adm_txv_clicodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Codigo Cliente"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/adm_txv_cli_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome Cliente"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/adm_txv_cli_fantasia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome Fantasia"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/adm_txv_cli_cidade"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="Cidade"
+        android:textSize="13dp" />
+
+
+    <TextView
+        android:id="@+id/adm_txv_cli_bairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bairro"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/adm_txv_cli_contato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Contato"
+        android:textColor="#002125"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+</LinearLayout>

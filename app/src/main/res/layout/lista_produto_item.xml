@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/prod_txv_prd_codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Codigo Produto"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/prod_txv_prd_codigobarras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo de barras"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prod_txv_prd_descricaoproduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrição do Produto"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/prod_txv_prd_quantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantidade"
+        android:textSize="13dp" />
+
+
+    <TextView
+        android:id="@+id/prod_txv_prd_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categoria"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/prod_txv_prd_preco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Preco"
+        android:textColor="#002125"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+</LinearLayout>

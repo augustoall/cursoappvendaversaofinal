@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.Controller.VenderProdutos">
+
+    <item
+        android:id="@+id/item_formapgto"
+        android:icon="@drawable/formapgto"
+        android:orderInCategory="100"
+        android:title="Forma e Pagamento"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_addproduto"
+        android:icon="@drawable/add_produto"
+        android:orderInCategory="100"
+        android:title="Add Produto"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_dataentrega"
+        android:icon="@drawable/data_entrega"
+        android:orderInCategory="100"
+        android:title="Data entrega"
+        app:showAsAction="ifRoom" />
+
+
+
+</menu>
